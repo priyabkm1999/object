@@ -1,0 +1,88 @@
+//------OBJECT---------OBJECT
+//-----REPORT OF CLASS 10/A STUDENTS OF 5 SUBJECTS IN 6 UNIT TEST OUT OF 20.------
+let CLASS_10_A_objects={
+    info_object: "CLASS",
+    type_object: "marks",
+    strength_of_students_object: 10,
+    marks_object:{
+        English_object:{
+            students_marks_in_6_unit_test_array:[
+                {A:[12,15,20,14,17,18]},
+                {B:[15,07,19,15,19,20]},
+                {C:[10,13,11,15,13,11]},
+                {D:[14,10,01,01,05,07]},
+                {E:[10,20,15,02,17,15]},
+                {F:[13,14,12,18,15,13]},
+                {G:[13,16,18,19,16,11]},
+                {H:[13,11,01,17,11,13]},
+                {I:[12,11,18,18,15,13]},
+                {J:[13,17,19,17,01,04]}
+            ]
+        },
+        Maths_object:{
+            students_marks_in_6_unit_test_array:[
+                {A:[13,14,10,15,16,17]},
+                {B:[18,05,13,15,13,11]},
+                {C:[17,14,12,11,12,11]},
+                {D:[14,16,07,05,09,10]},
+                {E:[10,10,15,17,15,17]},
+                {F:[13,14,12,17,19,20]},
+                {G:[13,16,18,17,14,12]},
+                {H:[13,11,01,14,13,12]},
+                {I:[12,11,18,17,18,11]},
+                {J:[13,17,19,19,19,18]}
+            ]
+        },
+        Science_object:{
+            students_marks_in_6_unit_test_array:[
+                {A:[10,14,10,17,15,11]},
+                {B:[05,17,09,20,12,11]},
+                {C:[03,13,11,16,18,13]},
+                {D:[14,00,01,15,14,13]},
+                {E:[10,20,15,19,17,15]},
+                {F:[13,14,12,14,13,11]},
+                {G:[13,06,18,05,03,03]},
+                {H:[13,11,01,02,02,03]},
+                {I:[12,11,18,09,19,14]},
+                {J:[13,17,19,15,14,17]}
+            ]
+        },
+        SST_object:{
+            students_marks_in_6_unit_test_array:[
+                {A:[01,04,20,11,12,13]},
+                {B:[13,05,03,17,15,19]},
+                {C:[14,14,16,18,16,14]},
+                {D:[14,16,07,19,20,20]},
+                {E:[10,10,15,17,03,20]},
+                {F:[13,14,12,18,18,19]},
+                {G:[13,16,18,16,19,10]},
+                {H:[13,11,01,20,16,19]},
+                {I:[12,11,18,19,19,20]},
+                {J:[13,17,19,20,20,20]}
+            ]
+        },
+        Hindi_object:{
+            students_marks_in_6_unit_test_array:[
+                {A:[15,18,20,17,19,19]},
+                {B:[14,18,19,03,04,05]},
+                {C:[17,13,11,20,17,18]},
+                {D:[14,20,01,20,20,03]},
+                {E:[10,10,15,19,20,17]},
+                {F:[13,14,12,17,12,14]},
+                {G:[13,16,18,14,13,14]},
+                {H:[13,11,01,16,17,18]},
+                {I:[12,11,18,16,17,19]},
+                {J:[13,17,19,18,18,20]}
+            ]
+        }
+   }
+};
+console.log(CLASS_10_A_objects.info_object[4])
+console.log(CLASS_10_A_objects.type_object[2])
+console.log(CLASS_10_A_objects.strength_of_students_object)
+console.log(CLASS_10_A_objects.marks_object)
+console.log(CLASS_10_A_objects.marks_object.English_object.students_marks_in_6_unit_test_array[3].D[1])
+console.log(CLASS_10_A_objects.marks_object.Maths_object.students_marks_in_6_unit_test_array[3].D[2])
+console.log(CLASS_10_A_objects.marks_object.Science_object.students_marks_in_6_unit_test_array[2].C[1])
+console.log(CLASS_10_A_objects.marks_object.SST_object.students_marks_in_6_unit_test_array[2].C[1])
+console.log(CLASS_10_A_objects.marks_object.Hindi_object.students_marks_in_6_unit_test_array[2].C[1])
